@@ -1,0 +1,11 @@
+{
+	"name": "TestSock",
+	"description": "Sockets!",
+	"launch_path": "/index.html",
+	"type": "privileged",
+	"permissions" : {
+	  "tcp-socket" : {
+	    "description" : "Create TCP sockets and communicate over them."
+	  }
+	}
+}
